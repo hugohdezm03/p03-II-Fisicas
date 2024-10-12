@@ -47,4 +47,24 @@ Al convertir la esfera a cinemática, el motor de físicas no se encargará de s
 
 Al ser todos los objetos físicos perfectos, todos son están incluidos en el motor de físicas y son afectados por la gravedad, es por ello que todos caen al vacío a la vez.
 
+### Situación 5:
+
+* El plano es un objeto físico perfecto (con collider y Rigidbody).
+* El cubo es un objeto físico perfecto (con collider y Rigidbody).
+* La esfera es un objeto físico perfecto (con collider y Rigidbody). Además, tiene una masa 10 veces mayor que el cubo.
+
+![GIF situación 5](docs/p03_II_situacion_05.gif)
+
+En este caso sucede lo mismo que en la situación anterior, ya que la aceleración de la gravedad es la misma para todos los cuerpos a la misma distancia, independientemente de su masa (en ausencia de rozamiento).
+
+### Situación 6:
+
+* El plano es un objeto físico perfecto (con collider y Rigidbody).
+* El cubo es un objeto físico perfecto (con collider y Rigidbody).
+* La esfera es un objeto físico perfecto (con collider y Rigidbody). Además, tiene una masa 100 veces mayor que el cubo.
+
+![GIF situación 6](docs/p03_II_situacion_06.gif)
+
+Se puede observar que sucede lo mismo que en la situación anterior, a causa de lo mismo.
+
 ## Movimientos - Físicas
