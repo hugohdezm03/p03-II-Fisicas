@@ -79,6 +79,13 @@ Se puede observar como tanto el plano como el cubo caen a la misma velocidad por
 
 ### Situación 8
 
+* El plano es un objeto físico perfecto (con collider y Rigidbody).
+* El cubo es un objeto físico perfecto (con collider y Rigidbody).
+* La esfera es un objeto físico cinemático (con collider y Rigidbody). Además, tiene la opción *isTrigger* activada.
+
+![GIF situación 8](docs/p03_II_situacion_08.gif)
+
+El plano y el cubo son físicos perfectos, por lo que caen por la gravedad. Por otra parte, la esfera se queda en la misma posición porque es cinemática, el motor de físicas no la mueve. Que la esfera sea Trigger hace que no colisione con otros colliders, aunque no se da la circustancia en el ejemplo.
 
 ### Situación 9
 
