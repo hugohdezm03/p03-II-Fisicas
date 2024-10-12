@@ -27,5 +27,24 @@ No sucede nada, ya que el cubo es el único que se ve afectado por las físicas 
 
 La esfera es añadida a la simulación de físicas, por lo tanto se ve afectada por la gravedad, colisiona con el cubo (ya que este posee collider) y, al salirse del plano cae al vacío. Además, el cubo no se desplaza por el choque.
 
+### Situación 3:
+
+* El plano no es un objeto físico perfecto, sólo tiene collider.
+* El cubo es un objeto físico perfecto (con collider y Rigidbody).
+* La esfera es un objeto físico cinemático (con collider y Rigidbody).
+
+![Imagen situación 3](docs/p03_II_situacion_01.png)
+
+Al convertir la esfera a cinemática, el motor de físicas no se encargará de su movimiento, por lo que la gravedad dejará de afectarle. Nos encontraremos en una situación similar a la presentada en la situación 1 aunque posea un Rigidbody.
+
+### Situación 4:
+
+* El plano es un objeto físico perfecto (con collider y Rigidbody).
+* El cubo es un objeto físico perfecto (con collider y Rigidbody).
+* La esfera es un objeto físico perfecto (con collider y Rigidbody).
+
+![GIF situación 4](docs/p03_II_situacion_04.gif)
+
+Al ser todos los objetos físicos perfectos, todos son están incluidos en el motor de físicas y son afectados por la gravedad, es por ello que todos caen al vacío a la vez.
 
 ## Movimientos - Físicas
