@@ -67,4 +67,19 @@ En este caso sucede lo mismo que en la situación anterior, ya que la aceleraci�
 
 Se puede observar que sucede lo mismo que en la situación anterior, a causa de lo mismo.
 
+### Situación 7
+
+* El plano es un objeto físico perfecto (con collider y Rigidbody).
+* El cubo es un objeto físico perfecto (con collider y Rigidbody).
+* La esfera es un objeto físico perfecto (con collider y Rigidbody). Además, tiene una fuerza de fricción (en este caso de 5).
+
+![GIF situación 7](docs/p03_II_situacion_07.gif)
+
+Se puede observar como tanto el plano como el cubo caen a la misma velocidad por la gravedad (sin rozamiento). En cambio, como la esfera está siendo afectada por el rozamiento cae más lentamente (por el parametro introducido, que puede variar para cambiar la velocidad a la que cae).
+
+### Situación 8
+
+
+### Situación 9
+
 ## Movimientos - Físicas
