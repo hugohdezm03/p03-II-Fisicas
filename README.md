@@ -95,6 +95,6 @@ El plano y el cubo son físicos perfectos, por lo que caen por la gravedad. Por 
 
 ![GIF situación 9](docs/p03_II_situacion_09.gif)
 
-Los tres objetos son movidos por el motor de físicas, en mi caso, le he puesto un drag (rozamiento) de 5 al plano y al cubo para visualizar mejor el resultado de que la esfera sea Trigger. Como se puede observar, no interactua con los colliders ni del plano ni del cubo y los atraviesa.
+Los tres objetos son movidos por el motor de físicas, en mi caso, le he puesto un drag (rozamiento) de 5 al plano y al cubo para visualizar mejor el resultado de que la esfera sea Trigger. Como se puede observar, no interactúa con los colliders ni del plano ni del cubo y los atraviesa.
 
 ## Movimientos - Físicas
