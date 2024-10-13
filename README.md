@@ -159,3 +159,12 @@ Se ha añadido un script que posee un atributo público *speed*, que permite mod
 
 >[!IMPORTANT]
 > [Enlace a Script.](scripts/UserMoveWithSpeed.cs)
+
+### Actividad 5
+
+Se ha modificado el Script de la actividad anterior añadiendo el ***Time.deltaTime*** para dar mayor fluidez al movimiento del cubo y adaptar mejor la velocidad del mismo.
+
+![GIF actividad 5](docs/p03_II_actividad_05.gif)
+
+>[!IMPORTANT]
+> [Enlace a Script.](scripts/UserMoveWithSpeedUpgraded.cs)
