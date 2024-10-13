@@ -16,6 +16,5 @@ public class UserMoveWithSpeed : MonoBehaviour
     {
         Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0.0f);
         transform.Translate(direction * speed, Space.Self);
-        // transform.Translate(direction * speed * Time.deltaTime, Space.Self);
     }
 }
