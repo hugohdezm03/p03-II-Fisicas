@@ -177,3 +177,7 @@ Se ha modificado el Script de la actividad anterior, dejando el movimiento de la
 
 >[!IMPORTANT]
 > [Enlace a Script.](scripts/CubeFollowsSphere.cs)
+
+### Actividad 7
+
+Se añade al Script anterior un `LookAt(sphere.transform)` para que el cubo mire hacia la esfera antes de desplazarse. Es destacable que si usas el sistema de referencia local del cubo, éste se desplazará también en el eje z (dando vueltas alrededor de la esfera). Es por esto que se ha elegido usar el sistema de referencia global.
