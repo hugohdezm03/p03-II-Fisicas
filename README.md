@@ -153,7 +153,7 @@ Intercambiar los movimientos para que sean relativos a diferentes sistemas de re
 
 ### Actividad 4
 
-Se ha añadido un script que posee un atributo público *speed*, que permite modificar la velocidad del movimiento en el inspector. Por otra parte, se han usado las configuraciones por defecto del ***Input Manager***, ya que contempla como teclas alternativas las solicitadas en los movimientos en horizontal y el vertical. Para implementar el movimiento se ha construido un vector que recibe el valor del eje "Horizontal" en la primera componente y el valor del eje "Vertical" en la segunda (la tercera queda a 0). En caso de buscar un movimiento acorde al tiempo entre frames haría falta añadir el Time.deltaTime.
+Se ha añadido un script que posee un atributo público *speed*, que permite modificar la velocidad del movimiento en el inspector. Por otra parte, se han añadido nuevas configuraciones a ***Input Manager***, que devuelvan los ejes *Horizontal* y *Vertical* pero con configuraciones únicas para flechas y asdw. Para implementar el movimiento se ha construido un vector que recibe el valor del eje "Horizontal" en la primera componente y el valor del eje "Vertical" en la segunda (la tercera queda a 0) para cada figura. En caso de buscar un movimiento acorde al tiempo entre frames haría falta añadir el Time.deltaTime. Además, se ha incluido el script a un elemento auxiliar invisible.
 
 ![GIF actividad 4](docs/p03_II_actividad_04.gif)
 
@@ -162,7 +162,7 @@ Se ha añadido un script que posee un atributo público *speed*, que permite mod
 
 ### Actividad 5
 
-Se ha modificado el Script de la actividad anterior añadiendo el ***Time.deltaTime*** para dar mayor fluidez al movimiento del cubo y adaptar mejor la velocidad del mismo.
+Se ha modificado el Script de la actividad anterior añadiendo el ***Time.deltaTime*** para dar mayor fluidez al movimiento de las figuras y adaptar mejor la velocidad a la responsividad.
 
 ![GIF actividad 5](docs/p03_II_actividad_05.gif)
 
