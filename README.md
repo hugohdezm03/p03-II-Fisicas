@@ -168,3 +168,12 @@ Se ha modificado el Script de la actividad anterior añadiendo el ***Time.deltaT
 
 >[!IMPORTANT]
 > [Enlace a Script.](scripts/UserMoveWithSpeedUpgraded.cs)
+
+### Actividad 6
+
+Se ha modificado el Script de la actividad anterior, dejando el movimiento de la esfera tal cual y haciendo que el movimiento del cubo dependa de la resta normalizada de las posiciones de los objetos. Se han separado las velocidades del cubo y de la esfera a título de favorecer la visualización.
+
+![GIF actividad 6](docs/p03_II_actividad_06.gif)
+
+>[!IMPORTANT]
+> [Enlace a Script.](scripts/CubeFollowsSphere.cs)
