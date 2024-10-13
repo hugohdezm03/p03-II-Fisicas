@@ -98,3 +98,9 @@ El plano y el cubo son físicos perfectos, por lo que caen por la gravedad. Por 
 Los tres objetos son movidos por el motor de físicas, en mi caso, le he puesto un drag (rozamiento) de 5 al plano y al cubo para visualizar mejor el resultado de que la esfera sea Trigger. Como se puede observar, no interactúa con los colliders ni del plano ni del cubo y los atraviesa.
 
 ## Movimientos - Físicas
+
+### Actividad 1
+
+Se añade un cubo a la escena y se le pone un atributo público *Speed* que permite modificar la velocidad desde el Inspector. Cada vez que se pulsa una de las flechas se muestra el valor del eje asociado (*Horizontal* si son las flechas hacia arriba o abajo y *Vertical* en las flechas hacia los lados) multiplicado por la velocidad.
+
+![GIF actividad 1](docs/p03_II_actividad_01.gif)
