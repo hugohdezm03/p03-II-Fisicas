@@ -105,7 +105,5 @@ Se añade un cubo a la escena y se le pone un atributo público *Speed* que perm
 
 ![GIF actividad 1](docs/p03_II_actividad_01.gif)
 
->[!NOTE]
-> Aquí tienes un consejo
-
-[Enlace a Script.](scripts/PrintAxisWithSpeed.cs)
+>[!IMPORTANT]
+> [Enlace a Script.](scripts/PrintAxisWithSpeed.cs)
