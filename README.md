@@ -149,3 +149,13 @@ Cambiar la posición del cubo no afecta al movimiento, ya que se está usando el
 #### e) Intercambiar movimiento relativo al sistema de referencia (entre Local y Global)
 
 Intercambiar los movimientos para que sean relativos a diferentes sistemas de referencia en este ejemplo no cambia nada, ya que el sistema de referencia del cubo y el global tienen los mismos ejes (aunque estén desplazados), por tanto los vectores representan el mismo movimiento. Los movimientos cambiarían al intercambiar el sistema de referencia si el del cubo estuviera rotado con respecto al global (ya que los vectores dejarían de representar el mismo movimiento).
+
+
+### Actividad 4
+
+Se ha añadido un script que posee un atributo público *speed*, que permite modificar la velocidad del movimiento en el inspector. Por otra parte, se han usado las configuraciones por defecto del ***Input Manager***, ya que contempla como teclas alternativas las solicitadas en los movimientos en horizontal y el vertical. Para implementar el movimiento se ha construido un vector que recibe el valor del eje "Horizontal" en la primera componente y el valor del eje "Vertical" en la segunda (la tercera queda a 0). En caso de buscar un movimiento acorde al tiempo entre frames haría falta añadir el Time.deltaTime.
+
+![GIF actividad 4](docs/p03_II_actividad_04.gif)
+
+>[!IMPORTANT]
+> [Enlace a Script.](scripts/UserMoveWithSpeed.cs)
