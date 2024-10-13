@@ -104,3 +104,5 @@ Los tres objetos son movidos por el motor de físicas, en mi caso, le he puesto 
 Se añade un cubo a la escena y se le pone un atributo público *Speed* que permite modificar la velocidad desde el Inspector. Cada vez que se pulsa una de las flechas se muestra el valor del eje asociado (*Horizontal* si son las flechas hacia arriba o abajo y *Vertical* en las flechas hacia los lados) multiplicado por la velocidad.
 
 ![GIF actividad 1](docs/p03_II_actividad_01.gif)
+
+[Enlace a Script](scripts/PrintAxisWithSpeed.cs)
