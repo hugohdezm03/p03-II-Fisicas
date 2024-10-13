@@ -114,7 +114,38 @@ Se ha mapeado la tecla "H" para el disparo (En Assets/Project Settings/Fire1/Pos
 
 ![Foto actividad 2](docs/p03_II_actividad_02.1.png)
 
-![GIF actividad 1](docs/p03_II_actividad_02.2.gif)
+![GIF actividad 2](docs/p03_II_actividad_02.2.gif)
 
 >[!IMPORTANT]
 > [Enlace a Script.](scripts/PrintWhenFire1.cs)
+
+### Actividad 3
+
+Se ha añadido un script al cubo con dos atributos públicos (para permitir modificar sus valores en el inspector) *moveDirection* (Vector3 que indica la dirección en la que se moverá el cubo) y *speed* (indica la velocidad del movimiento). En el script se usa el método ***Translate*** de la propiedad ***transform*** del objeto que lo posee como componente. Además de tener en cuenta la dirección introducida y la velocidad dada, hay que usar ***Time.deltaTime*** para lograr un movimiento fluido. A continuación se muestra un ejemplo de ejecución:
+
+![GIF actividad 3](docs/p03_II_actividad_03.0.gif)
+
+>[!IMPORTANT]
+> [Enlace a Script.](scripts/MoveInDirectionWithSpeed.cs)
+
+Explicación a las situaciones presentadas en el guión:
+
+#### a) Duplicar coordenadas del vector de movimiento
+
+Al duplicar las coordenadas del vector de movimiento se aumenta la velocidad del movimiento, ya que no se está normalizando el mismo antes de introducirlo al translate. Si se quisiera que esto no sucediera, la solución es la presentada, normalizar el vector de movimiento para que su modulo sea unitario.
+
+#### b) Duplicar velocidad manteniendo el movimiento
+
+Si duplicas la velocidad manteniendo el movimiento también se aumenta la velocidad, en este caso es el comportamiento esperado y deseado.
+
+#### c) Velocidad < 1
+
+Si la velocidad sigue siendo positiva, el cubo se moverá en la dirección especificada pero con mayor lentitud. Si la velocidad es 0, el cubo se quedará parado. Por último, si la velocidad es negativa, el cubo se moverá en la dirección indicada por el vector pero en el sentido contrario al que éste establece.
+
+#### d) Posición del cubo con y > 1
+
+Cambiar la posición del cubo no afecta al movimiento, ya que se está usando el sistema de referencia local.
+
+#### e) Intercambiar movimiento relativo al sistema de referencia (entre Local y Global)
+
+Intercambiar los movimientos para que sean relativos a diferentes sistemas de referencia en este ejemplo no cambia nada, ya que el sistema de referencia del cubo y el global tienen los mismos ejes (aunque estén desplazados), por tanto los vectores representan el mismo movimiento. Los movimientos cambiarían al intercambiar el sistema de referencia si el del cubo estuviera rotado con respecto al global (ya que los vectores dejarían de representar el mismo movimiento).
