@@ -107,3 +107,14 @@ Se añade un cubo a la escena y se le pone un atributo público *Speed* que perm
 
 >[!IMPORTANT]
 > [Enlace a Script.](scripts/PrintAxisWithSpeed.cs)
+
+### Actividad 2
+
+Se ha mapeado la tecla "H" para el disparo (En Assets/Project Settings/Fire1/Positive Button). Además, se ha hecho un pequeño Script que imprime por consola el valor del Fire 1 para comprobar el funcionamiento (al pulsar la tecla indicada dispara y, si no, no).
+
+![Foto actividad 2](docs/p03_II_actividad_02.1.png)
+
+![GIF actividad 1](docs/p03_II_actividad_02.2.gif)
+
+>[!IMPORTANT]
+> [Enlace a Script.](scripts/PrintWhenFire1.cs)
