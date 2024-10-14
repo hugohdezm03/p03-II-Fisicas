@@ -214,3 +214,13 @@ El cilindro sigue siendo físico perfecto aunque ahora el cubo es cinemático y 
 
 >[!IMPORTANT]
 >[Enlace a Script.](scripts/ShowPhysicsCollision2.cs)
+
+
+### Actividad 11
+
+Se mantienen el cubo y la esfera igual que en la actividad anterior. En este caso el cilindro se configura como ***Trigger***, por lo que no interactuará físicamente con el resto de colliders de los objetos. Es por esto que, para lograr mostrar el funcionamiento de la impresión de colisiones se colocará el cilindro encima de la esfera y el cubo esperando que caiga através de ellos. En cuanto a los Scripts, no es necesario modificar ninguno, ya que se puede aprovechar de nuevo el usado en cilindro desde la actividad 9 (enlazado también en esta actividad), es importante destacar que en este caso sólo se dispararán eventos `OnTriggerEnter`, ya que el collider del cilindro es de este tipo y podría eliminarse el `OnCollisionEnter`.
+
+![GIF actividad 11](docs/p03_II_actividad_11.gif)
+
+>[!IMPORTANT]
+> [Enlace a Script.](scripts/ShowPhysicCollision.cs)
