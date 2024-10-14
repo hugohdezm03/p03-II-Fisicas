@@ -224,3 +224,18 @@ Se mantienen el cubo y la esfera igual que en la actividad anterior. En este cas
 
 >[!IMPORTANT]
 > [Enlace a Script.](scripts/ShowPhysicCollision.cs)
+
+
+### Actividad 12
+
+Se añade un cilindro físico perfecto al que se le agrega un script que permite moverlo mediante las teclas ASDW (usando fuerzas). Se han realizado las diferentes pruebas solicitadas modificando el estado de la esfera, se explicarán los resultados más adelante. A continuación se deja un ejemplo de ejecución con la esfera física perfecta y de igual masa que el cilindro:
+
+![GIF actividad 12](docs/p03_II_actividad_12.gif)
+
+
+>[!IMPORTANT]
+> [Enlace al Script que permite mover el nuevo cilindro mediante fuerzas.](scripts/MovePhysicCylinder.cs)
+
+**Situaciones propuestas en el guión:**
+
+- 
