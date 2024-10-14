@@ -208,7 +208,7 @@ Se añade un cilindro físico perfecto (con collider y rigidBody) a la escena y 
 
 ### Actividad 10
 
-El cilindro sigue siendo físico perfecto aunque ahora el cubo es cinemático y la esfera también es física perfecta. Para detectar las colisiones en esta actividad únicamente es necesario el uso del `OnCollisionEnter`, pero se usará el mismo Script en el cilindro que en la actividad anterior por practicidad (los eventos `Trigger` no se dispararán). Por último, la esfera al ser física deja de poder ser controlada por el usuario (se podrían añadir fuerzas que permitieran el manejo, pero se puede sobrecargar el motor de físicas si se introducen fuerzas según los controles del usuario), por otra parte, el cubo al ser cinemático puede seguirse controlando como hasta ahora con el ***Transform.Translate()*** (ver cambios en el manejo en el Script enlazado, asociado al elemento auxiliar).
+El cilindro sigue siendo físico perfecto aunque ahora el cubo es cinemático y la esfera también es física perfecta. Para detectar las colisiones en esta actividad únicamente es necesario el uso del `OnCollisionEnter`, pero se usará el mismo Script en el cilindro que en la actividad anterior por practicidad (los eventos `Trigger` no se dispararán). Por último, la esfera al ser física deja de poder ser controlada por el usuario (se podrían añadir fuerzas que permitieran el manejo pero se ha optado por no hacerlo, ya que en una próxima actividad se hará), por otra parte, el cubo al ser cinemático puede seguirse controlando como hasta ahora con el ***Transform.Translate()*** (ver cambios en el manejo en el Script enlazado, asociado al elemento auxiliar).
 
 ![GIF actividad 10](docs/p03_II_actividad_10.gif)
 
