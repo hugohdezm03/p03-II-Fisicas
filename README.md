@@ -238,4 +238,20 @@ Se añade un cilindro físico perfecto al que se le agrega un script que permite
 
 **Situaciones propuestas en el guión:**
 
-- 
+- Esferera física con 10 veces más masa que el cilindro:
+    - En este caso, mover la esfera mediante las colisiones del cilindro es más difícil, requiere de más choques o mayor aceleración. Esto se debe a que la masa del cilindro es significativamente menor (F = m * a).
+
+- Esfera física con 10 veces menos masa que el cilindro:
+    - Para mover con la misma facilidad el cilindro se necesitará una mayor velocidad (ajustable en el inspector). Además, cuando el cilindro golpea la esfera, ésta tomará una mayor velocidad.
+
+- Esfera cinemática:
+    - Al ser la esfera cinemática, ésta no será movida por los choques del cilindro. Ésto sucede porque el motor de físicas no puede desplazar elementos cinemáticos.
+
+- Esfera trigger:
+    - Si la esfera es marcada como trigger, ésta caerá al vacío atravesando el plano, ya que todos los objetos marcados como trigger no interactúan físicamente con el resto de colliders.
+
+- Esfera física con fricción duplicada en el cilindro:
+    - Usando como fricción el campo drag del rigidBody:
+        - El cilindro se podrá mover, pero más lentamente que si no tuviera la fricción activa.
+    - Usando como fricción el componente Physic Material:
+        - Al igual que en la anterior, al añadir fricción, el cilindro se moverá más lentamente.
