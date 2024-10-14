@@ -195,3 +195,12 @@ Se modifica el Script anterior cambiando la llamada a `LookAt(sphere.transform` 
 
 >[!IMPORTANT]
 > [Enlace a Script.](scripts/CubeFollowsSphereWithManualRotation.cs)
+
+### Actividad 9
+
+Se añade un cilindro físico perfecto (con collider y rigidBody) a la escena y se le asigna el Script desarrollado. Para evitar que caiga por la gravedad se añade también un plano sobre el que estarán los tres objetos de la escena. Además, aunque no se especifique, los colliders del cubo y de la esfera necesitan ser marcados como ***Trigger***, ya que, de otra forma, tendrían un collider estático (pensado para objetos que no se mueven y que reciben optimizaciones en la compilación). Es por todo esto que en el Script se ha usado el evento `OnTriggerEnter` para detectar las colisiones con los colliders del cubo y de la esfera (que, al ser ***Trigger*** no afectan físicamente) y el evento `OnCollisionEnter` para detectar las colisiones con el plano (que sí tiene un collider estático).
+
+![GIF actividad 9](docs/p03_II_actividad_09.gif)
+
+>[!IMPORTANT]
+> [Enlace a Script.](scripts/ShowPhysicCollision.cs)
