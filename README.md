@@ -186,3 +186,12 @@ Se añade al Script anterior un `LookAt(sphere.transform)` para que el cubo mire
 
 >[!IMPORTANT]
 > [Enlace a Script.](scripts/CubeFollowsSphereWithRotation.cs)
+
+### Actividad 8
+
+Se modifica el Script anterior cambiando la llamada a `LookAt(sphere.transform` por la modificación manual de la rotación del cubo mediante el uso de el ***Quaternion.Lerp***. Además, es destacable el uso del ***Debug.DrawRay*** para facilitar la visión del vector `forward` del cubo.
+
+![GIF actividad 8](docs/p03_II_actividad_08.gif)
+
+>[!IMPORTANT]
+> [Enlace a Script.](scripts/CubeFollowsSphereWithManualRotation.cs)
